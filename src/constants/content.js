@@ -1,13 +1,35 @@
 export const CONTENT = {
-  hero: {
-    title: "ぐでにゃん制作",
-    sub: "効率化は、ぐうたらするためにある。",
-    matsusaka: "三重県松阪市から、愛と霜降りを込めてやに。"
+  hero: { 
+    sub: "脳みそはGemini、わしは寝るだけ。AIと創る『究極のぐうたら』検証中。",
   },
   skills: [
-    { id: "it", title: "IT & Automation", tags: ["React", "GAS", "Node.js"], phrase: "完了やに！あとは寝るだけ。", color: "cyan" },
-    { id: "acc", title: "Accounting & Biz", tags: ["簿記", "経営分析", "節税"], phrase: "きっちりやに。貸借一致は快感やわ。", color: "gold" },
-    { id: "nail", title: "Nail & Beauty", tags: ["フォルム形成", "ジェルネイル"], phrase: "つやつややに。ええ出来やわ。", color: "pink" },
-    { id: "ill", title: "Illustration", tags: ["キャラデザ", "2Dイラスト"], phrase: "描いたに！見てきな。", color: "indigo" }
+    { 
+      id: "it", 
+      title: "IT Automation", 
+      tags: ["GAS", "AI連携", "自動化"], 
+      phrase: "完了やに！Geminiにコード書かせて、わしは寝るに。", 
+      color: "cyan" 
+    },
+    { 
+      id: "hp", 
+      title: "Web Production", 
+      tags: ["React", "Vite", "AI実装"], 
+      phrase: "爆速やに！構成からデプロイまで、AIと作ったに。", 
+      color: "gold" 
+    },
+    { 
+      id: "ill", 
+      title: "AI Illustration", 
+      tags: ["Prompt", "世界観構築"], 
+      phrase: "描かせたに！プロンプト投げて、とろとろの世界を錬成。", 
+      color: "pink" 
+    },
+    { 
+      id: "brand", 
+      title: "AI Branding", 
+      tags: ["壁打ち", "コンセプト", "メタ視点"], 
+      phrase: "整ったに。AI（Gemini）と相談して、最強のサボりをデザイン。", 
+      color: "indigo" 
+    }
   ]
 };
